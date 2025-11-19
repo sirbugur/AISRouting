@@ -1,0 +1,21 @@
+{
+ "servers": {
+  "ksim-knowledge": {
+   "type": "stdio",
+   "command": "ksim-mcp",
+   "env": {
+    "API_BASE_URL": "https://kbot-api.ksimconnect.dev"
+   }
+  },
+  "ado": {
+   "type": "stdio",
+   "command": "npx",
+   "args": [
+    "-y",
+    "@azure-devops/mcp",
+    "maritimesim"
+   ]
+  }
+ },
+ "inputs": []
+}
